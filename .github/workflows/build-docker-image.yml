@@ -2,8 +2,6 @@ name: Construir imagen y subirla a github
 on:
   push:
       branches: ["main"]
-  pull_request:
-      branches: ["main"]
 
 jobs:
   build:
